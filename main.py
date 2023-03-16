@@ -40,13 +40,14 @@ def check_all_messages(message):
     response('See you!', ['bye', 'goodbye'], single_response=True)
     response('I\'m doing fine, and you?', ['how', 'are', 'you', 'doing'], required_words=['how'])
     response('You\'re welcome!', ['thank', 'thanks'], single_response=True)
-    response('Thank you!', ['i', 'love', 'code', 'palace'], required_words=['code', 'palace'])
+    
 
     # Longer responses
     response(long.R_ADVICE, ['give', 'advice'], required_words=['advice'])
     response(long.R_EATING, ['what', 'you', 'eat'], required_words=['you', 'eat'])
-    response(long.R_NAMING, ['what is your name','Name'], required_words=['name'])
-
+    response(long.R_NAMING, ['what', 'is','your' ,'name','Name'], required_words=['name'])
+    response(long.R_SMART, ['Do','you','get','samrter?','are','you','smart'], required_words=['smart'])
+ 
     best_match = max(highest_prob_list, key=highest_prob_list.get)
     
     # print(highest_prob_list)

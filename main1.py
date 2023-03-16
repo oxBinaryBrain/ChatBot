@@ -1,8 +1,8 @@
-# import necessary libraries
+# import library
 import random
 
 # define some responses
-greetings = ['hello', 'hi', 'hey', 'hola']
+greetings = ['hello', 'hi', 'hey']
 questions = ['how are you?', 'how are you doing?', 'what\'s up?']
 responses = ['I\'m good.', 'I\'m doing well.', 'Not much.']
 goodbyes = ['bye', 'goodbye', 'see you later', 'talk to you later']
