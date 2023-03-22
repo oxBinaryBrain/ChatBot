@@ -5,7 +5,3 @@ This chatbot creation using java requires a minimum requirements, that the code 
 4.Conversation flow
 5.UI(Basic)
 
-
-###########################################################################################################
-
-Same applies for the chatbots created using other languages other than java.
