@@ -4,6 +4,5 @@ This chatbot can respond to greetings, questions about how it's doing, and goodb
   
 
 
-###
-Main.py is a main file of the code and has a long responses in it, and still is in developmeent.
+
 
